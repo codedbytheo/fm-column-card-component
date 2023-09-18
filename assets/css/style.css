@@ -28,6 +28,7 @@ body {
 
 .columnContainer {
     max-width: 370px;
+    margin: 0 auto;
 }
 
 .columnSedan {
@@ -96,4 +97,17 @@ body {
 .buttonLuxury:hover {
     background-color: var(--darkCyan);
     color: var(--lightGray);
+}
+
+@media (min-width: 1440px) {
+    .columnContainer {
+        display: flex;
+        max-width: 50%;
+        min-height: 100svh;
+        align-items: center;
+    }
+
+    .columnInformation > p {
+        margin-bottom: 5rem;
+    }
 }
