@@ -13,3 +13,87 @@
 html {
     font-size: 15px;
 }
+
+* {
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    padding: 2rem 1rem;
+}
+
+.columnContainer {
+    max-width: 370px;
+}
+
+.columnSedan {
+    background-color: var(--brightOrange);
+}
+
+.columnSuvs {
+    background-color: var(--medCyan);
+}
+
+.columnLuxury {
+    background-color: var(--darkCyan);
+}
+
+.columnSection {
+    padding: 2rem;
+}
+
+.columnSection > img {
+    margin-bottom: 1.5rem;
+}
+
+.columnInformation > p {
+    margin-bottom: 1.75rem;
+    color: var(--transWhite);
+}
+
+.columnInformation > .columnHeading {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+    color: var(--lightGray);
+}
+
+.columnButton {
+    border: 2px solid var(--lightGray);
+    background-color: var(--lightGray);
+    border-radius: 20px;
+    padding: 0.65rem 1rem;
+    margin-bottom: 1rem;
+    transition: 0.2s ease-in-out all;
+}
+
+.buttonSedan {
+    color: var(--brightOrange);
+}
+
+.buttonSedan:hover {
+    background-color: var(--brightOrange);
+    color: var(--lightGray);
+}
+
+.buttonSuvs {
+    color: var(--medCyan);
+}
+
+.buttonSuvs:hover {
+    background-color: var(--medCyan);
+    color: var(--lightGray);
+}
+
+.buttonLuxury {
+    color: var(--darkCyan);
+}
+
+.buttonLuxury:hover {
+    background-color: var(--darkCyan);
+    color: var(--lightGray);
+}
