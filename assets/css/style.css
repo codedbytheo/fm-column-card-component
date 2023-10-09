@@ -99,11 +99,11 @@ body {
     color: var(--lightGray);
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1150px) {
     .columnContainer {
         display: flex;
-        max-width: 50%;
-        min-height: 100svh;
+        max-width: 1040px;
+        min-height: 93dvh;
         align-items: center;
     }
 
